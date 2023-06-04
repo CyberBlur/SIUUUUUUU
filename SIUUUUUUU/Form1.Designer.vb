@@ -22,7 +22,9 @@ Partial Class Form1
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.SuspendLayout()
         '
         'TextBox1
@@ -47,4 +49,5 @@ Partial Class Form1
     End Sub
 
     Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents Timer1 As Timer
 End Class
