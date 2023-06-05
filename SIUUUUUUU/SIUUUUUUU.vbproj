@@ -101,6 +101,24 @@
     <Compile Include="Pacientes\Pacientes.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Usuarios\Agregar_Usuario.Designer.vb">
+      <DependentUpon>Agregar_Usuario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Usuarios\Agregar_Usuario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Usuarios\Editar_Usuario.Designer.vb">
+      <DependentUpon>Editar_Usuario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Usuarios\Editar_Usuario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Usuarios\Usuarios.Designer.vb">
+      <DependentUpon>Usuarios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Usuarios\Usuarios.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Pacientes\Pacientes.resx">
@@ -114,6 +132,9 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Usuarios\Usuarios.resx">
+      <DependentUpon>Usuarios.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
