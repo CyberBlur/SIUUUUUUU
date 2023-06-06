@@ -73,10 +73,26 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="Empleados\Empleados.Designer.vb">
       <DependentUpon>Empleados.vb</DependentUpon>
     </Compile>
     <Compile Include="Empleados\Empleados.vb">
+=======
+    <Compile Include="Facturacion\frm_facturacion.Designer.vb">
+      <DependentUpon>frm_facturacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\frm_facturacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Facturacion\frm_nueva_factura.Designer.vb">
+      <DependentUpon>frm_nueva_factura.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\frm_nueva_factura.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantalla Principal\Form1.vb">
+>>>>>>> da0d3ba0776fa77df892e82c2389e0647c8e97a5
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Empleados\nuevo_empleado.Designer.vb">
@@ -120,8 +136,27 @@
     <Compile Include="Pacientes\Pacientes.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Usuarios\Agregar_Usuario.Designer.vb">
+      <DependentUpon>Agregar_Usuario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Usuarios\Agregar_Usuario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Usuarios\Editar_Usuario.Designer.vb">
+      <DependentUpon>Editar_Usuario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Usuarios\Editar_Usuario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Usuarios\Usuarios.Designer.vb">
+      <DependentUpon>Usuarios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Usuarios\Usuarios.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <EmbeddedResource Include="Empleados\Empleados.resx">
       <DependentUpon>Empleados.vb</DependentUpon>
     </EmbeddedResource>
@@ -130,6 +165,13 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Empleados\editar_empleado.resx">
       <DependentUpon>editar_empleado.vb</DependentUpon>
+=======
+    <EmbeddedResource Include="Facturacion\frm_facturacion.resx">
+      <DependentUpon>frm_facturacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\frm_nueva_factura.resx">
+      <DependentUpon>frm_nueva_factura.vb</DependentUpon>
+>>>>>>> da0d3ba0776fa77df892e82c2389e0647c8e97a5
     </EmbeddedResource>
     <EmbeddedResource Include="Pacientes\Pacientes.resx">
       <DependentUpon>Pacientes.vb</DependentUpon>
@@ -142,6 +184,9 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Usuarios\Usuarios.resx">
+      <DependentUpon>Usuarios.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
