@@ -27,8 +27,8 @@ Partial Class Pacientes
         Me.pnlTitulo = New System.Windows.Forms.Panel()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.iconButton3 = New System.Windows.Forms.Button()
-        Me.iconButton2 = New System.Windows.Forms.Button()
+        Me.btnnuevopaciente = New System.Windows.Forms.Button()
+        Me.btneditarpaciente = New System.Windows.Forms.Button()
         Me.dg_pacientes = New System.Windows.Forms.DataGridView()
         Me.pnlTitulo.SuspendLayout()
         CType(Me.dg_pacientes, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -62,39 +62,39 @@ Partial Class Pacientes
         Me.Label1.ForeColor = System.Drawing.Color.White
         Me.Label1.Location = New System.Drawing.Point(31, 5)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(233, 24)
+        Me.Label1.Size = New System.Drawing.Size(219, 24)
         Me.Label1.TabIndex = 2
-        Me.Label1.Text = "Listadoo de Pacientes"
+        Me.Label1.Text = "Listado de Pacientes"
         '
-        'iconButton3
+        'btnnuevopaciente
         '
-        Me.iconButton3.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.iconButton3.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(154, Byte), Integer), CType(CType(76, Byte), Integer))
-        Me.iconButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.iconButton3.Font = New System.Drawing.Font("Century Gothic", 12.0!)
-        Me.iconButton3.ForeColor = System.Drawing.Color.White
-        Me.iconButton3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.iconButton3.Location = New System.Drawing.Point(625, 60)
-        Me.iconButton3.Name = "iconButton3"
-        Me.iconButton3.Size = New System.Drawing.Size(197, 47)
-        Me.iconButton3.TabIndex = 22
-        Me.iconButton3.Text = "Nuevo Paciente"
-        Me.iconButton3.UseVisualStyleBackColor = False
+        Me.btnnuevopaciente.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.btnnuevopaciente.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(154, Byte), Integer), CType(CType(76, Byte), Integer))
+        Me.btnnuevopaciente.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnnuevopaciente.Font = New System.Drawing.Font("Century Gothic", 12.0!)
+        Me.btnnuevopaciente.ForeColor = System.Drawing.Color.White
+        Me.btnnuevopaciente.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnnuevopaciente.Location = New System.Drawing.Point(625, 60)
+        Me.btnnuevopaciente.Name = "btnnuevopaciente"
+        Me.btnnuevopaciente.Size = New System.Drawing.Size(197, 47)
+        Me.btnnuevopaciente.TabIndex = 22
+        Me.btnnuevopaciente.Text = "Nuevo Paciente"
+        Me.btnnuevopaciente.UseVisualStyleBackColor = False
         '
-        'iconButton2
+        'btneditarpaciente
         '
-        Me.iconButton2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.iconButton2.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(94, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.iconButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.iconButton2.Font = New System.Drawing.Font("Century Gothic", 12.0!)
-        Me.iconButton2.ForeColor = System.Drawing.Color.White
-        Me.iconButton2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.iconButton2.Location = New System.Drawing.Point(625, 123)
-        Me.iconButton2.Name = "iconButton2"
-        Me.iconButton2.Size = New System.Drawing.Size(197, 47)
-        Me.iconButton2.TabIndex = 23
-        Me.iconButton2.Text = "Editar Paciente"
-        Me.iconButton2.UseVisualStyleBackColor = False
+        Me.btneditarpaciente.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.btneditarpaciente.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(94, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btneditarpaciente.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btneditarpaciente.Font = New System.Drawing.Font("Century Gothic", 12.0!)
+        Me.btneditarpaciente.ForeColor = System.Drawing.Color.White
+        Me.btneditarpaciente.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btneditarpaciente.Location = New System.Drawing.Point(625, 123)
+        Me.btneditarpaciente.Name = "btneditarpaciente"
+        Me.btneditarpaciente.Size = New System.Drawing.Size(197, 47)
+        Me.btneditarpaciente.TabIndex = 23
+        Me.btneditarpaciente.Text = "Editar Paciente"
+        Me.btneditarpaciente.UseVisualStyleBackColor = False
         '
         'dg_pacientes
         '
@@ -133,8 +133,8 @@ Partial Class Pacientes
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(834, 571)
         Me.Controls.Add(Me.dg_pacientes)
-        Me.Controls.Add(Me.iconButton2)
-        Me.Controls.Add(Me.iconButton3)
+        Me.Controls.Add(Me.btneditarpaciente)
+        Me.Controls.Add(Me.btnnuevopaciente)
         Me.Controls.Add(Me.pnlTitulo)
         Me.Name = "Pacientes"
         Me.Text = "Pacientes"
@@ -148,7 +148,7 @@ Partial Class Pacientes
     Friend WithEvents pnlTitulo As Panel
     Friend WithEvents Button1 As Button
     Private WithEvents Label1 As Label
-    Private WithEvents iconButton3 As Button
-    Private WithEvents iconButton2 As Button
+    Private WithEvents btnnuevopaciente As Button
+    Private WithEvents btneditarpaciente As Button
     Private WithEvents dg_pacientes As DataGridView
 End Class
